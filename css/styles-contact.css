@@ -1,0 +1,54 @@
+
+
+
+
+.name {
+  width: 50%;
+}
+
+.email {
+  width: 50%;
+}
+
+.contactForm {
+  padding: 0 2rem 0;
+}
+
+.big-heading {
+  padding: 0 2rem 0;
+  color: #000;
+  font-family: "ubuntu";
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+#title {
+  position: relative;
+  background-color: #00bcd4;
+  z-index: 0;
+}
+
+#contact-form {
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
+  padding:3rem 0 0 0;
+  bottom: 3rem;
+  width: 87%;
+  left: 13%;
+}
+#footer{
+margin-top: 1rem;
+padding-bottom: 0;
+height: 7rem;
+}
+
+
+@media (max-width: 750px){
+  #contact-form {
+    position:relative;
+    padding:1.5rem 0 1rem 0;
+    bottom: 0;
+    width:auto;
+    left: 0%;
+  }
